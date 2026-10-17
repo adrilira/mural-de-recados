@@ -1,6 +1,10 @@
 class MessagesController < ApplicationController
   def index
-    @quente = Message.first.author
+    @quentes = Message.all
+  end
+
+  def new
+    
   end
 end
 
